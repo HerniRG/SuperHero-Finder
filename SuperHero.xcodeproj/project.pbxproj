@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		665769742C5BFF1500F7069B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 665769732C5BFF1500F7069B /* SDWebImageSwiftUI */; };
+		6681EAF52C5C1BA500F70244 /* DetailsSuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681EAF42C5C1BA500F70244 /* DetailsSuperHero.swift */; };
 		66F21A4B2C5BD8EF00361B6F /* SuperHeroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F21A4A2C5BD8EF00361B6F /* SuperHeroApp.swift */; };
 		66F21A4D2C5BD8EF00361B6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F21A4C2C5BD8EF00361B6F /* ContentView.swift */; };
 		66F21A4F2C5BD8F000361B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F21A4E2C5BD8F000361B6F /* Assets.xcassets */; };
 		66F21A522C5BD8F000361B6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F21A512C5BD8F000361B6F /* Preview Assets.xcassets */; };
+		66F21A592C5BE35800361B6F /* ApiNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F21A582C5BE35800361B6F /* ApiNetwork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6681EAF42C5C1BA500F70244 /* DetailsSuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsSuperHero.swift; sourceTree = "<group>"; };
 		66F21A472C5BD8EF00361B6F /* SuperHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F21A4A2C5BD8EF00361B6F /* SuperHeroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroApp.swift; sourceTree = "<group>"; };
 		66F21A4C2C5BD8EF00361B6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66F21A4E2C5BD8F000361B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66F21A512C5BD8F000361B6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66F21A582C5BE35800361B6F /* ApiNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiNetwork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665769742C5BFF1500F7069B /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +59,8 @@
 			children = (
 				66F21A4A2C5BD8EF00361B6F /* SuperHeroApp.swift */,
 				66F21A4C2C5BD8EF00361B6F /* ContentView.swift */,
+				6681EAF42C5C1BA500F70244 /* DetailsSuperHero.swift */,
+				66F21A582C5BE35800361B6F /* ApiNetwork.swift */,
 				66F21A4E2C5BD8F000361B6F /* Assets.xcassets */,
 				66F21A502C5BD8F000361B6F /* Preview Content */,
 			);
@@ -83,6 +91,9 @@
 			dependencies = (
 			);
 			name = SuperHero;
+			packageProductDependencies = (
+				665769732C5BFF1500F7069B /* SDWebImageSwiftUI */,
+			);
 			productName = SuperHero;
 			productReference = 66F21A472C5BD8EF00361B6F /* SuperHero.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,9 @@
 				Base,
 			);
 			mainGroup = 66F21A3E2C5BD8EF00361B6F;
+			packageReferences = (
+				665769722C5BFF1500F7069B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 66F21A482C5BD8EF00361B6F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6681EAF52C5C1BA500F70244 /* DetailsSuperHero.swift in Sources */,
+				66F21A592C5BE35800361B6F /* ApiNetwork.swift in Sources */,
 				66F21A4D2C5BD8EF00361B6F /* ContentView.swift in Sources */,
 				66F21A4B2C5BD8EF00361B6F /* SuperHeroApp.swift in Sources */,
 			);
@@ -344,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		665769722C5BFF1500F7069B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		665769732C5BFF1500F7069B /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 665769722C5BFF1500F7069B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 66F21A3F2C5BD8EF00361B6F /* Project object */;
 }
