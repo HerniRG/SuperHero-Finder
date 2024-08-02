@@ -30,7 +30,7 @@ SuperHero Finder es una aplicación de iOS desarrollada en SwiftUI que permite b
 
 1. Clona este repositorio en tu máquina local:
     ```sh
-    git clone https://github.com/tu-usuario/superhero-finder.git
+    git clone https://github.com/HerniRG/SuperHero-Finder.git
     ```
 
 2. Abre el proyecto en Xcode:
@@ -58,11 +58,3 @@ SuperHero Finder es una aplicación de iOS desarrollada en SwiftUI que permite b
 
 Autor: Hernán Rodríguez  
 Correo electrónico: hernanrg85@gmail.com
-
-## Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
-
-## Descarga
-
-Puedes descargar la última versión de la aplicación desde el siguiente enlace: [Descargar SuperHero Finder](https://github.com/tu-usuario/superhero-finder/releases)
