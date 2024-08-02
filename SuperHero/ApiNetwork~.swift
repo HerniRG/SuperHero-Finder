@@ -89,7 +89,7 @@ class ApiNetwork {
     }
     
     func getHeroesByQuery(query: String) async throws -> Wrapper {
-        let token = "YourTokenCode"
+        let token = "1d3282f292509015fa61d5de086c09ce"
         let url = URL(string: "https://superheroapi.com/api/\(token)/search/\(query)")!
         
         let (data, _) = try await URLSession.shared.data(from: url)
